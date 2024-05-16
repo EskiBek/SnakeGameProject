@@ -1,1 +1,1 @@
-A Proper Working Snake Game made in C#
+A Properly Working Snake Game made in C#
