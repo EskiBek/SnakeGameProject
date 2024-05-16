@@ -1,0 +1,22 @@
+﻿<Window x:Class="snake_Game.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:snake_Game"
+        mc:Ignorable="d"
+        Title="Which map do you want?" Height="500" Width="800" FontFamily="{StaticResource BornRound}" WindowStartupLocation="CenterScreen" Icon="Assets/IconGame.png"
+        Background="AliceBlue"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Choose the Map:" Grid.ColumnSpan="3" HorizontalAlignment="Center" FontSize="50" FontWeight="Bold"></TextBlock>
+        <Button Click="SmallMap" Content="Small" Width="200" Height="150" BorderBrush="LimeGreen" BorderThickness="4" Background="Lime" Foreground="Blue" FontWeight="Bold" FontSize="25"></Button>
+        <Button Grid.Column="1" Click="MediumMap" Content="Medium" Width="200" Height="150" BorderBrush="Yellow" BorderThickness="4" Background="Gold" Foreground="Purple" FontWeight="Bold" FontSize="25"></Button>
+        <Button Grid.Column="2" Click="LargeMap" Content="Large" Width="200" Height="150" BorderBrush="OrangeRed" BorderThickness="4" Background="MediumVioletRed" Foreground="White" FontWeight="Bold" FontSize="25"></Button>
+    </Grid>
+</Window>

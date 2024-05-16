@@ -1,0 +1,15 @@
+﻿<Application x:Class="snake_Game.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:snake_Game"
+             StartupUri="Menu.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BGColor">#000000</SolidColorBrush>
+        <SolidColorBrush x:Key="GridBG">#42D124</SolidColorBrush>
+        <SolidColorBrush x:Key="LineColor">#3C6933</SolidColorBrush>
+        <SolidColorBrush x:Key="ScoreColor">#FFFFFF</SolidColorBrush>
+        <SolidColorBrush x:Key="OverlayText">#0BBBF0</SolidColorBrush>
+        <SolidColorBrush x:Key="StartOverlayBG">#1F1111</SolidColorBrush>
+        <FontFamily x:Key="BornRound">Assets/born-rounded-font/#Bornroundeddemo.otf</FontFamily>
+    </Application.Resources>
+</Application>
